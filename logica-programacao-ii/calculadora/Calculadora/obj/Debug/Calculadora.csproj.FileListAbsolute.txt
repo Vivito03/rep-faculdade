@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\Curso de Algoritmos\Unitri\rep-faculdade\logica-programacao-ii\calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Curso de Algoritmos\Unitri\rep-faculdade\logica-programacao-ii\calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
