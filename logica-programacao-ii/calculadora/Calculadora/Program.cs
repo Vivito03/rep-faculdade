@@ -21,7 +21,10 @@ namespace Calculadora
 
             var opcao = int.Parse(Console.ReadLine());
 
-            if (opcao == 1 || opcao == 2)
+            if (opcao != 1 && opcao != 2)
+            {
+                Console.WriteLine("Opção inválida, finalizando o programa.");
+            } else if (opcao == 1 || opcao == 2)
             {
                 Console.WriteLine("Digite o primeiro número:");
                 n1 = int.Parse(Console.ReadLine());
@@ -30,7 +33,7 @@ namespace Calculadora
             }
             if (opcao == 1)
             {
-                int resultado = Soma(n1, n2);
+                int resultado = Soma(n1, n2); // entender pq tá dando erro aqui
                 Console.WriteLine($"O resultado da soma é {resultado}.");
             }
             else if (opcao == 2)
